@@ -22,10 +22,10 @@ import (
 )
 
 func main() {
-    x := [][]float64{{1, 2, 3}, {8, 10, 15}}
+    x := [][]float64{{1, 2, 3}, {3, 2, 1}}
     y := [][]float64{{1, 3, 4}}
     result := cosinesimilarity.Compute(x, y)
-    fmt.Println(result)
+    fmt.Println(result) // [[0.9958705948858224] [0.6813851438692469]]
 }
 ```
 
